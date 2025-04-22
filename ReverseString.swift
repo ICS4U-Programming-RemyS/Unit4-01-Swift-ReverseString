@@ -52,7 +52,6 @@ do {
     // Create position variable
     var position = 0
 
-
     // While loop to read each line
     while position < inputLines.count {
         // Get the current line
@@ -82,7 +81,7 @@ do {
 }
 
 // Function to to reverse a string using recursion
-func recReverse(word : String) -> String {
+func recReverse(word: String) -> String {
     // Base case: if the string is empty
     if word.isEmpty {
         // Return an empty string if the word is empty
